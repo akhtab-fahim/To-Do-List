@@ -4,10 +4,10 @@ import pg from "pg";
 
 const app = express();
 const db = new pg.Client({
-  user: "postgres",
+  user: "postgres", //change the username if you have other than this 
   host: "localhost",
-  database: "todolist",
-  password: "iwnnbwithuPG",
+  database: " ", //enter the name of the database
+  password: " ", //enter your password
   port: 5432,
 });
 db.connect();
