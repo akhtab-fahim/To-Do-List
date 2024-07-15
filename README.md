@@ -59,6 +59,7 @@ npm install -g nodemon
 Ensure any required migrations are applied.
 
 5.**Starting the server:**
+Modify the index.js before starting
  ```bash
 nodemon index.js
    ```
